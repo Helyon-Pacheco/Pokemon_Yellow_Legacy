@@ -361,7 +361,7 @@ LickitungEvosMoves:
 	db 23, DEFENSE_CURL
 	db 32, BODY_SLAM
 	db 39, SCREECH
-	db 44, WRAP
+	db 44, BIND
 	db 0
 
 ExeggcuteEvosMoves:
@@ -402,6 +402,7 @@ GengarEvosMoves:
 ; Learnset
 	db 10, SMOG
 	db 15, PSYWAVE
+	db 23, POISON_GAS
 	db 36, NIGHT_SHADE
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
@@ -499,6 +500,7 @@ MewEvosMoves:
 	db 20, MEGA_PUNCH
 	db 25, PSYBEAM
 	db 30, METRONOME
+	db 35, NIGHT_SHADE
 	db 40, PSYCHIC_M
 	db 0
 
@@ -546,7 +548,7 @@ TentacoolEvosMoves:
 	db 35, BARRIER
 	db 40, SCREECH
 	db 43, SLUDGE
-	db 47, WRAP
+	db 47, BIND
 	db 50, HYDRO_PUMP
 	db 0
 
@@ -729,6 +731,7 @@ KadabraEvosMoves:
 	db EVOLVE_LEVEL, 42, ALAKAZAM
 	db 0
 ; Learnset
+	db 16, KINESIS
 	db 16, CONFUSION
 	db 20, DISABLE
 	db 27, PSYBEAM
@@ -832,7 +835,7 @@ ArbokEvosMoves:
 	db 25, GLARE
 	db 30, SCREECH
 	db 35, SLUDGE
-	db 38, WRAP
+	db 38, BIND
 	db 0
 
 ParasectEvosMoves:
@@ -1206,6 +1209,7 @@ KrabbyEvosMoves:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
+	db 15, WATER_GUN
 	db 20, VICEGRIP
 	db 25, BUBBLEBEAM
 	db 29, CUT
@@ -1336,14 +1340,14 @@ KabutoEvosMoves:
 	db 0
 ; Learnset
 	db 11, LEER	
-	db 15, WATER_GUN
+	db 15, VICEGRIP
 	db 19, ABSORB
 	db 25, ROCK_THROW
 	db 35, MEGA_DRAIN
 	db 39, SLASH
 	db 43, SWORDS_DANCE
 	db 46, ROCK_SLIDE
-	db 53, HYDRO_PUMP
+	db 53, GUILLOTINE
 	db 0
 
 KabutopsEvosMoves:
@@ -1351,14 +1355,14 @@ KabutopsEvosMoves:
 	db 0
 ; Learnset
 	db 11, LEER	
-	db 15, WATER_GUN
+	db 15, VICEGRIP
 	db 19, ABSORB
 	db 25, ROCK_THROW
 	db 35, MEGA_DRAIN
 	db 39, SLASH
 	db 43, SWORDS_DANCE
 	db 46, ROCK_SLIDE
-	db 53, HYDRO_PUMP
+	db 53, GUILLOTINE
 	db 0
 
 HorseaEvosMoves:
@@ -1416,7 +1420,7 @@ SandshrewEvosMoves:
 	db 14, DIG
 	db 18, SWIFT
 	db 22, SLASH
-	db 33, EARTHQUAKE
+	db 30, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
@@ -1600,7 +1604,7 @@ EkansEvosMoves:
 	db 25, GLARE
 	db 30, SCREECH
 	db 35, SLUDGE
-	db 47, WRAP
+	db 47, BIND
 	db 0
 
 ParasEvosMoves:
@@ -1929,6 +1933,7 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 15, WATER_GUN
 	db 20, VICEGRIP
 	db 25, BUBBLEBEAM
 	db 28, CUT
@@ -2039,6 +2044,7 @@ HaunterEvosMoves:
 ; Learnset
 	db 10, SMOG
 	db 15, PSYWAVE
+	db 23, POISON_GAS
 	db 36, NIGHT_SHADE
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
@@ -2055,6 +2061,7 @@ AlakazamEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, KINESIS
 	db 16, CONFUSION
 	db 20, DISABLE
 	db 27, PSYBEAM
@@ -2146,7 +2153,7 @@ TentacruelEvosMoves:
 	db 35, BARRIER
 	db 40, SCREECH
 	db 43, SLUDGE
-	db 47, WRAP
+	db 47, BIND
 	db 50, HYDRO_PUMP
 	db 0
 
@@ -2165,8 +2172,8 @@ GoldeenEvosMoves:
 	db 10, SUPERSONIC
 	db 13, WATER_GUN
 	db 15, HORN_ATTACK
-	db 17, WATERFALL
-	db 24, FURY_ATTACK
+	db 17, FURY_ATTACK
+	db 24, WATERFALL
 	db 33, DRILL_PECK
 	db 43, HORN_DRILL
 	db 48, AGILITY
@@ -2180,8 +2187,8 @@ SeakingEvosMoves:
 	db 10, SUPERSONIC
 	db 13, WATER_GUN
 	db 15, HORN_ATTACK
-	db 17, WATERFALL
-	db 24, FURY_ATTACK
+	db 17, FURY_ATTACK
+	db 24, WATERFALL
 	db 33, DRILL_PECK
 	db 43, HORN_DRILL
 	db 48, AGILITY

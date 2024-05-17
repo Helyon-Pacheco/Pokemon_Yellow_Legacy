@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      \
+	     HYDRO_PUMP,   BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE
 	; end

@@ -3,7 +3,7 @@
 	db  30,  80,  90,  55,  45
 	;   hp  atk  def  spd  spc
 
-	db ROCK, WATER ; type
+	db ROCK, BUG ; type
 	db 45 ; catch rate
 	db 119 ; base exp
 
@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        \
+	     HYDRO_PUMP,   ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
 	     SURF,      ROCK_SLIDE
 	; end
